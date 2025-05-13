@@ -86,6 +86,7 @@ nav ul input[type=text] {
 
 body, html {
     height: 100%;
+    background-color: #F7F7F7;
 }
 
 .hero{
@@ -122,4 +123,59 @@ body, html {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     color:#F7F7F7;
+}
+
+h2 {
+  font-weight: bold;
+  font-size : 35px;
+  margin-top: 20px;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: #121212;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  font-size:22px;
+  gap: 15px;
+  color: #F7F7F7;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  margin: auto;
+}
+
+.card {
+  background-color: #121212;
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+
+.card i{
+  font-size: 25px;
+  padding:9px;
+  color: #00B7FF;
+}
+
+hr {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1.4px solid #121212 ;
+  width: 75%;
+  border-radius: 5px;
 }
